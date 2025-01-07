@@ -14,6 +14,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import com.example.wrappedback.web.SongDetails;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -81,49 +82,59 @@ public class ReadFiles {
     // return map;
     // }
 
-    public static HashMap<String, Long> processJsonFiles(String directory) {
+    public static List<SongDetails> processJsonFiles(String directory) {
         Set<String> fileNames = listFilesUsingJavaIO(directory); // Hakee tiedostot hakemistosta
         ObjectMapper objectMapper = new ObjectMapper(); // Jacksonin ObjectMapper JSON-käsittelyyn
-        HashMap<String, Long> map = new HashMap<>(); // HashMap, johon tallennetaan tiedot
-
-        // Käydään läpi tiedostot hakemistossa
+        List<SongDetails> songs = new ArrayList<>();
+        //
+        //
+        //
         for (String fileName : fileNames) {
             // Varmistetaan, että tiedosto on JSON ja alkaa "StreamingHistory"-sanoilla
             if (!fileName.endsWith(".json") || !fileName.startsWith("StreamingHistory")) {
                 continue;
             }
             String filePath = directory + "/" + fileName;
+            File file = new File(filePath);
+            //
+            //
+            //
+            //
             try {
-                // Luetaan JSON-tiedosto
-                JsonNode rootNode = objectMapper.readTree(new File(filePath));
-                // Tarkistetaan, että JSON on taulukko
+                JsonNode rootNode = objectMapper.readTree(file);
                 if (rootNode.isArray()) {
                     for (JsonNode node : rootNode) {
-                        String podcastName = null;
-                        String song = null;
-                        // Haetaan mahdolliset kentät
-                        if (node.has("podcastName")) {
-                            podcastName = node.get("podcastName").asText();
+                        String songName = node.get("trackName").toString();
+                        Integer ms = node.get("msPlayed").asInt(); // uudet msPlayed
+                        System.out.println(songName);
+                        SongDetails found = songs.stream()
+                                .filter(s -> s.getSong().equals(songName)) // Varmistetaan, että kappaleen nimi täsmää
+                                .findFirst() // Hae ensimmäinen vastaava kappale
+                                .orElse(null);
+                        if (found != null) {
+                            // pitää saada lisättyy olemassa olevaan objektiin
+                            found.setMs(found.getMs() + ms);
+                            found.setTimesPlayed(found.getTimesPlayed() + 1);
                         }
-                        if (node.has("trackName")) {
-                            song = node.get("trackName").asText();
-                        }
-                        long msPlayed = node.get("msPlayed").asLong(); // Haetaan soittotunnit
-                        // Lisätään data HashMapiin
-                        if (podcastName != null) {
-                            map.put(podcastName, map.getOrDefault(podcastName, 0L) + msPlayed);
-                        }
-                        if (song != null) {
-                            map.put(song, map.getOrDefault(song, 0L) + msPlayed);
+                        if (found == null) {
+                            // luodaan objekti ja lisätää lsitaan
+                            SongDetails song = new SongDetails();
+                            song.setSong(songName);
+                            song.setMs(ms);
+                            song.setTimesPlayed(1);
+                            songs.add(song);
                         }
                     }
+                } else {
+                    System.out.println("VIIIRHE");
                 }
-            } catch (IOException e) {
-                System.err.println("Virhe tiedostoa käsiteltäessä: " + fileName);
-                e.printStackTrace();
+            } catch (Exception e) {
+                // TODO: handle exception
             }
+
         }
-        return map;
+        // System.out.println(songs);
+        return songs;
     }
 
     public static String toJson(HashMap<String, Long> map) {
@@ -137,4 +148,5 @@ public class ReadFiles {
         }
         return "";
     }
+
 }

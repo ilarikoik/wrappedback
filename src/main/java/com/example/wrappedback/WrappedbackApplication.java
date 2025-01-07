@@ -14,10 +14,13 @@ public class WrappedbackApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(WrappedbackApplication.class, args);
 		System.out.println(" \n\n\nJJJOU");
-		HashMap<String, Long> tulos = ReadFiles.processJsonFiles("data/Spotify Account Data");
-		String json = ReadFiles.toJson(tulos);
-		System.out.println(json);
-		System.out.println(json.getClass().getName());
+		// HashMap<String, Long> tulos = ReadFiles.processJsonFiles("data/Spotify
+		// Account Data");
+		// String json = ReadFiles.toJson(tulos);
+		// System.out.println(json);
+		// System.out.println(json.getClass().getName());
+
+		System.out.println(ReadFiles.processJsonFiles("data/Spotify Account Data"));
 	}
 
 }

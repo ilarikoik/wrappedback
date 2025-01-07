@@ -3,20 +3,22 @@ package com.example.wrappedback.web;
 import org.springframework.web.bind.annotation.*;
 
 import com.example.wrappedback.utils.ReadFiles;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
 
 @RestController
+@CrossOrigin(origins = "*")
 @RequestMapping("/api")
 public class ApiController {
 
     @GetMapping("/datas")
-    public HashMap<String, Long> getAll() {
-        HashMap<String, Long> tulos = ReadFiles.processJsonFiles("data/Spotify Account Data");
-        String json = ReadFiles.toJson(tulos);
+    public List<SongDetails> getAll() {
+        List<SongDetails> tulos = ReadFiles.processJsonFiles("data/Spotify Account Data");
+
         return tulos;
     }
 
