@@ -14,6 +14,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import com.example.wrappedback.web.ArtistDetails;
 import com.example.wrappedback.web.SongDetails;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
@@ -82,12 +83,12 @@ public class ReadFiles {
     // return map;
     // }
 
+    // KAPPALEIDEN TIEDOT
     public static List<SongDetails> processJsonFiles(String directory) {
         Set<String> fileNames = listFilesUsingJavaIO(directory); // Hakee tiedostot hakemistosta
         ObjectMapper objectMapper = new ObjectMapper(); // Jacksonin ObjectMapper JSON-käsittelyyn
         List<SongDetails> songs = new ArrayList<>();
-        //
-        //
+
         //
         for (String fileName : fileNames) {
             // Varmistetaan, että tiedosto on JSON ja alkaa "StreamingHistory"-sanoilla
@@ -96,9 +97,6 @@ public class ReadFiles {
             }
             String filePath = directory + "/" + fileName;
             File file = new File(filePath);
-            //
-            //
-            //
             //
             try {
                 JsonNode rootNode = objectMapper.readTree(file);
@@ -136,6 +134,60 @@ public class ReadFiles {
         // System.out.println(songs);
         return songs;
     }
+
+    // ARTISTIT JA NIIDEN KUUNTELUKERRAT
+
+    public static List<ArtistDetails> processJsonFilesArtists(String directory) {
+        Set<String> fileNames = listFilesUsingJavaIO(directory); // Hakee tiedostot hakemistosta
+        ObjectMapper objectMapper = new ObjectMapper(); // Jacksonin ObjectMapper JSON-käsittelyyn
+        List<ArtistDetails> artists = new ArrayList<>();
+
+        for (String fileName : fileNames) {
+            // Varmistetaan, että tiedosto on JSON ja alkaa "StreamingHistory"-sanoilla
+            if (!fileName.endsWith(".json") || !fileName.startsWith("StreamingHistory")) {
+                continue;
+            }
+            String filePath = directory + "/" + fileName;
+            File file = new File(filePath);
+            //
+            try {
+                JsonNode rootNode = objectMapper.readTree(file);
+                if (rootNode.isArray()) {
+                    for (JsonNode node : rootNode) {
+                        String artistName = node.get("artistName").toString();
+                        Integer ms = node.get("msPlayed").asInt();
+                        System.out.println(artistName);
+                        ArtistDetails found = artists.stream()
+                                .filter(s -> s.getArtist().equals(artistName))
+                                .findFirst()
+                                .orElse(null);
+                        if (found != null) {
+                            // pitää saada lisättyy olemassa olevaan objektiin
+                            found.setMs(found.getMs() + ms);
+                            found.setTimesPlayed(found.getTimesPlayed() + 1);
+                        }
+                        if (found == null) {
+                            // luodaan objekti ja lisätää lsitaan
+                            ArtistDetails artist = new ArtistDetails();
+                            artist.setArtist(artistName);
+                            artist.setMs(ms);
+                            artist.setTimesPlayed(1);
+                            artists.add(artist);
+                        }
+                    }
+                } else {
+                    System.out.println("VIIIRHE");
+                }
+            } catch (Exception e) {
+                // TODO: handle exception
+            }
+
+        }
+        System.out.println(artists);
+        return artists;
+    }
+
+    // PODCASTEILLE TIEDOT
 
     public static String toJson(HashMap<String, Long> map) {
         ObjectMapper mapper = new ObjectMapper();

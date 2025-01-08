@@ -18,7 +18,12 @@ public class ApiController {
     @GetMapping("/datas")
     public List<SongDetails> getAll() {
         List<SongDetails> tulos = ReadFiles.processJsonFiles("data/Spotify Account Data");
+        return tulos;
+    }
 
+    @GetMapping("/artists")
+    public List<ArtistDetails> getArtists() {
+        List<ArtistDetails> tulos = ReadFiles.processJsonFilesArtists("data/Spotify Account Data");
         return tulos;
     }
 
