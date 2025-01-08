@@ -27,4 +27,10 @@ public class ApiController {
         return tulos;
     }
 
+    @GetMapping("/test")
+    public List<SongDetails> getTest() {
+        List<SongDetails> tulos = ReadFiles.processJsonFilesTestData("data/Spotify Account Data/test.json");
+        return tulos;
+    }
+
 }

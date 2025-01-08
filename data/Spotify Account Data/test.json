@@ -1,0 +1,614 @@
+[
+  {
+    "endTime": "2023-12-15 12:45",
+    "artistName": "Haloo Helsinki!",
+    "trackName": "Joulun kanssas jaan (feat. Cantores Minores)",
+    "msPlayed": 278786
+  },
+  {
+    "endTime": "2023-12-15 12:48",
+    "artistName": "Adele",
+    "trackName": "Someone Like You",
+    "msPlayed": 290123
+  },
+  {
+    "endTime": "2023-12-15 12:52",
+    "artistName": "Metallica",
+    "trackName": "Enter Sandman",
+    "msPlayed": 331250
+  },
+  {
+    "endTime": "2023-12-15 12:56",
+    "artistName": "Ed Sheeran",
+    "trackName": "Perfect",
+    "msPlayed": 263987
+  },
+  {
+    "endTime": "2023-12-15 13:00",
+    "artistName": "Eppu Normaali",
+    "trackName": "Murheellisten Laulujen Maa",
+    "msPlayed": 202093
+  },
+  {
+    "endTime": "2023-12-15 13:03",
+    "artistName": "Haloo Helsinki!",
+    "trackName": "Joulun kanssas jaan (feat. Cantores Minores)",
+    "msPlayed": 282106
+  },
+  {
+    "endTime": "2023-12-15 13:07",
+    "artistName": "The Beatles",
+    "trackName": "Let It Be",
+    "msPlayed": 243567
+  },
+  {
+    "endTime": "2023-12-15 13:11",
+    "artistName": "Coldplay",
+    "trackName": "Fix You",
+    "msPlayed": 270100
+  },
+  {
+    "endTime": "2023-12-15 13:15",
+    "artistName": "Eminem",
+    "trackName": "Lose Yourself",
+    "msPlayed": 320456
+  },
+  {
+    "endTime": "2023-12-15 13:19",
+    "artistName": "Jack Harlow",
+    "trackName": "Tyler Herro",
+    "msPlayed": 156578
+  },
+  {
+    "endTime": "2023-12-15 13:22",
+    "artistName": "Musakatit",
+    "trackName": "Joulumaa",
+    "msPlayed": 175000
+  },
+  {
+    "endTime": "2023-12-15 13:26",
+    "artistName": "Queen",
+    "trackName": "Bohemian Rhapsody",
+    "msPlayed": 354321
+  },
+  {
+    "endTime": "2023-12-15 13:30",
+    "artistName": "Vesa-Matti Loiri",
+    "trackName": "Sydämeeni joulun teen",
+    "msPlayed": 198200
+  },
+  {
+    "endTime": "2023-12-15 13:34",
+    "artistName": "Leevi and the Leavings",
+    "trackName": "Itkisitkö onnesta?",
+    "msPlayed": 283093
+  },
+  {
+    "endTime": "2023-12-15 13:38",
+    "artistName": "Hector",
+    "trackName": "Lumi teki enkelin eteiseen",
+    "msPlayed": 207600
+  },
+  {
+    "endTime": "2023-12-15 13:42",
+    "artistName": "Pekka Ruuska",
+    "trackName": "Rafaelin enkeli",
+    "msPlayed": 268333
+  },
+  {
+    "endTime": "2023-12-15 13:46",
+    "artistName": "Musakatit",
+    "trackName": "Joulumaa",
+    "msPlayed": 175000
+  },
+  {
+    "endTime": "2023-12-15 13:49",
+    "artistName": "Juice Leskinen",
+    "trackName": "Viidestoista yö",
+    "msPlayed": 232146
+  },
+  {
+    "endTime": "2023-12-15 13:52",
+    "artistName": "Taylor Swift",
+    "trackName": "Love Story",
+    "msPlayed": 210000
+  },
+  {
+    "endTime": "2023-12-15 13:55",
+    "artistName": "Ed Sheeran",
+    "trackName": "Perfect",
+    "msPlayed": 263987
+  },
+  {
+    "endTime": "2023-12-15 13:59",
+    "artistName": "Coldplay",
+    "trackName": "The Scientist",
+    "msPlayed": 265120
+  },
+  {
+    "endTime": "2023-12-15 14:03",
+    "artistName": "Leevi and the Leavings",
+    "trackName": "Pohjois-Karjala",
+    "msPlayed": 201217
+  },
+  {
+    "endTime": "2023-12-15 14:07",
+    "artistName": "Haloo Helsinki!",
+    "trackName": "Hulluuden Highway",
+    "msPlayed": 292200
+  },
+  {
+    "endTime": "2023-12-15 14:10",
+    "artistName": "Adele",
+    "trackName": "Rolling in the Deep",
+    "msPlayed": 288000
+  },
+  {
+    "endTime": "2023-12-15 14:14",
+    "artistName": "Metallica",
+    "trackName": "One",
+    "msPlayed": 447890
+  },
+  {
+    "endTime": "2023-12-15 14:19",
+    "artistName": "Ed Sheeran",
+    "trackName": "Shape of You",
+    "msPlayed": 233112
+  },
+  {
+    "endTime": "2023-12-15 14:23",
+    "artistName": "Eppu Normaali",
+    "trackName": "Tahroja Paperilla",
+    "msPlayed": 193456
+  },
+  {
+    "endTime": "2023-12-15 14:27",
+    "artistName": "Haloo Helsinki!",
+    "trackName": "Maailma on tehty meitä varten",
+    "msPlayed": 270000
+  },
+  {
+    "endTime": "2023-12-15 14:31",
+    "artistName": "The Beatles",
+    "trackName": "Hey Jude",
+    "msPlayed": 425000
+  },
+  {
+    "endTime": "2023-12-15 14:35",
+    "artistName": "Coldplay",
+    "trackName": "Yellow",
+    "msPlayed": 266400
+  },
+  {
+    "endTime": "2023-12-15 14:39",
+    "artistName": "Eminem",
+    "trackName": "Stan",
+    "msPlayed": 375420
+  },
+  {
+    "endTime": "2023-12-15 14:44",
+    "artistName": "Jack Harlow",
+    "trackName": "Whats Poppin",
+    "msPlayed": 204578
+  },
+  {
+    "endTime": "2023-12-15 14:48",
+    "artistName": "Musakatit",
+    "trackName": "Joulumaa",
+    "msPlayed": 175000
+  },
+  {
+    "endTime": "2023-12-15 14:52",
+    "artistName": "Queen",
+    "trackName": "We Are The Champions",
+    "msPlayed": 178900
+  },
+  {
+    "endTime": "2023-12-15 12:45",
+    "artistName": "Haloo Helsinki!",
+    "trackName": "Joulun kanssas jaan (feat. Cantores Minores)",
+    "msPlayed": 278786
+  },
+  {
+    "endTime": "2023-12-15 12:48",
+    "artistName": "Adele",
+    "trackName": "Someone Like You",
+    "msPlayed": 290123
+  },
+  {
+    "endTime": "2023-12-15 12:52",
+    "artistName": "Metallica",
+    "trackName": "Enter Sandman",
+    "msPlayed": 331250
+  },
+  {
+    "endTime": "2023-12-15 12:56",
+    "artistName": "Ed Sheeran",
+    "trackName": "Perfect",
+    "msPlayed": 263987
+  },
+  {
+    "endTime": "2023-12-15 13:00",
+    "artistName": "Eppu Normaali",
+    "trackName": "Murheellisten Laulujen Maa",
+    "msPlayed": 202093
+  },
+  {
+    "endTime": "2023-12-15 13:03",
+    "artistName": "Haloo Helsinki!",
+    "trackName": "Joulun kanssas jaan (feat. Cantores Minores)",
+    "msPlayed": 282106
+  },
+  {
+    "endTime": "2023-12-15 13:07",
+    "artistName": "The Beatles",
+    "trackName": "Let It Be",
+    "msPlayed": 243567
+  },
+  {
+    "endTime": "2023-12-15 13:11",
+    "artistName": "Coldplay",
+    "trackName": "Fix You",
+    "msPlayed": 270100
+  },
+  {
+    "endTime": "2023-12-15 13:15",
+    "artistName": "Eminem",
+    "trackName": "Lose Yourself",
+    "msPlayed": 320456
+  },
+  {
+    "endTime": "2023-12-15 13:19",
+    "artistName": "Jack Harlow",
+    "trackName": "Tyler Herro",
+    "msPlayed": 156578
+  },
+  {
+    "endTime": "2023-12-15 13:22",
+    "artistName": "Musakatit",
+    "trackName": "Joulumaa",
+    "msPlayed": 175000
+  },
+  {
+    "endTime": "2023-12-15 13:26",
+    "artistName": "Queen",
+    "trackName": "Bohemian Rhapsody",
+    "msPlayed": 354321
+  },
+  {
+    "endTime": "2023-12-15 13:30",
+    "artistName": "Vesa-Matti Loiri",
+    "trackName": "Sydämeeni joulun teen",
+    "msPlayed": 198200
+  },
+  {
+    "endTime": "2023-12-15 13:34",
+    "artistName": "Leevi and the Leavings",
+    "trackName": "Itkisitkö onnesta?",
+    "msPlayed": 283093
+  },
+  {
+    "endTime": "2023-12-15 13:38",
+    "artistName": "Hector",
+    "trackName": "Lumi teki enkelin eteiseen",
+    "msPlayed": 207600
+  },
+  {
+    "endTime": "2023-12-15 13:42",
+    "artistName": "Pekka Ruuska",
+    "trackName": "Rafaelin enkeli",
+    "msPlayed": 268333
+  },
+  {
+    "endTime": "2023-12-15 13:46",
+    "artistName": "Musakatit",
+    "trackName": "Joulumaa",
+    "msPlayed": 175000
+  },
+  {
+    "endTime": "2023-12-15 13:49",
+    "artistName": "Juice Leskinen",
+    "trackName": "Viidestoista yö",
+    "msPlayed": 232146
+  },
+  {
+    "endTime": "2023-12-15 13:52",
+    "artistName": "Taylor Swift",
+    "trackName": "Love Story",
+    "msPlayed": 210000
+  },
+  {
+    "endTime": "2023-12-15 13:55",
+    "artistName": "Ed Sheeran",
+    "trackName": "Perfect",
+    "msPlayed": 263987
+  },
+  {
+    "endTime": "2023-12-15 13:59",
+    "artistName": "Coldplay",
+    "trackName": "The Scientist",
+    "msPlayed": 265120
+  },
+  {
+    "endTime": "2023-12-15 14:03",
+    "artistName": "Leevi and the Leavings",
+    "trackName": "Pohjois-Karjala",
+    "msPlayed": 201217
+  },
+  {
+    "endTime": "2023-12-15 14:07",
+    "artistName": "Haloo Helsinki!",
+    "trackName": "Hulluuden Highway",
+    "msPlayed": 292200
+  },
+  {
+    "endTime": "2023-12-15 14:10",
+    "artistName": "Adele",
+    "trackName": "Rolling in the Deep",
+    "msPlayed": 288000
+  },
+  {
+    "endTime": "2023-12-15 14:14",
+    "artistName": "Metallica",
+    "trackName": "One",
+    "msPlayed": 447890
+  },
+  {
+    "endTime": "2023-12-15 14:19",
+    "artistName": "Ed Sheeran",
+    "trackName": "Shape of You",
+    "msPlayed": 233112
+  },
+  {
+    "endTime": "2023-12-15 14:23",
+    "artistName": "Eppu Normaali",
+    "trackName": "Tahroja Paperilla",
+    "msPlayed": 193456
+  },
+  {
+    "endTime": "2023-12-15 14:27",
+    "artistName": "Haloo Helsinki!",
+    "trackName": "Maailma on tehty meitä varten",
+    "msPlayed": 270000
+  },
+  {
+    "endTime": "2023-12-15 14:31",
+    "artistName": "The Beatles",
+    "trackName": "Hey Jude",
+    "msPlayed": 425000
+  },
+  {
+    "endTime": "2023-12-15 14:35",
+    "artistName": "Coldplay",
+    "trackName": "Yellow",
+    "msPlayed": 266400
+  },
+  {
+    "endTime": "2023-12-15 14:39",
+    "artistName": "Eminem",
+    "trackName": "Stan",
+    "msPlayed": 375420
+  },
+  {
+    "endTime": "2023-12-15 14:44",
+    "artistName": "Jack Harlow",
+    "trackName": "Whats Poppin",
+    "msPlayed": 204578
+  },
+  {
+    "endTime": "2023-12-15 14:48",
+    "artistName": "Musakatit",
+    "trackName": "Joulumaa",
+    "msPlayed": 175000
+  },
+  {
+    "endTime": "2023-12-15 14:52",
+    "artistName": "Queen",
+    "trackName": "We Are The Champions",
+    "msPlayed": 178900
+  },
+  {
+    "endTime": "2023-12-15 12:45",
+    "artistName": "Haloo Helsinki!",
+    "trackName": "Joulun kanssas jaan (feat. Cantores Minores)",
+    "msPlayed": 278786
+  },
+  {
+    "endTime": "2023-12-15 12:48",
+    "artistName": "Adele",
+    "trackName": "Someone Like You",
+    "msPlayed": 290123
+  },
+  {
+    "endTime": "2023-12-15 12:52",
+    "artistName": "Metallica",
+    "trackName": "Enter Sandman",
+    "msPlayed": 331250
+  },
+  {
+    "endTime": "2023-12-15 12:56",
+    "artistName": "Ed Sheeran",
+    "trackName": "Perfect",
+    "msPlayed": 263987
+  },
+  {
+    "endTime": "2023-12-15 13:00",
+    "artistName": "Eppu Normaali",
+    "trackName": "Murheellisten Laulujen Maa",
+    "msPlayed": 202093
+  },
+  {
+    "endTime": "2023-12-15 13:03",
+    "artistName": "Haloo Helsinki!",
+    "trackName": "Joulun kanssas jaan (feat. Cantores Minores)",
+    "msPlayed": 282106
+  },
+  {
+    "endTime": "2023-12-15 13:07",
+    "artistName": "The Beatles",
+    "trackName": "Let It Be",
+    "msPlayed": 243567
+  },
+  {
+    "endTime": "2023-12-15 13:11",
+    "artistName": "Coldplay",
+    "trackName": "Fix You",
+    "msPlayed": 270100
+  },
+  {
+    "endTime": "2023-12-15 13:15",
+    "artistName": "Eminem",
+    "trackName": "Lose Yourself",
+    "msPlayed": 320456
+  },
+  {
+    "endTime": "2023-12-15 13:19",
+    "artistName": "Jack Harlow",
+    "trackName": "Tyler Herro",
+    "msPlayed": 156578
+  },
+  {
+    "endTime": "2023-12-15 13:22",
+    "artistName": "Musakatit",
+    "trackName": "Joulumaa",
+    "msPlayed": 175000
+  },
+  {
+    "endTime": "2023-12-15 13:26",
+    "artistName": "Queen",
+    "trackName": "Bohemian Rhapsody",
+    "msPlayed": 354321
+  },
+  {
+    "endTime": "2023-12-15 13:30",
+    "artistName": "Vesa-Matti Loiri",
+    "trackName": "Sydämeeni joulun teen",
+    "msPlayed": 198200
+  },
+  {
+    "endTime": "2023-12-15 13:34",
+    "artistName": "Leevi and the Leavings",
+    "trackName": "Itkisitkö onnesta?",
+    "msPlayed": 283093
+  },
+  {
+    "endTime": "2023-12-15 13:38",
+    "artistName": "Hector",
+    "trackName": "Lumi teki enkelin eteiseen",
+    "msPlayed": 207600
+  },
+  {
+    "endTime": "2023-12-15 13:42",
+    "artistName": "Pekka Ruuska",
+    "trackName": "Rafaelin enkeli",
+    "msPlayed": 268333
+  },
+  {
+    "endTime": "2023-12-15 13:46",
+    "artistName": "Musakatit",
+    "trackName": "Joulumaa",
+    "msPlayed": 175000
+  },
+  {
+    "endTime": "2023-12-15 13:49",
+    "artistName": "Juice Leskinen",
+    "trackName": "Viidestoista yö",
+    "msPlayed": 232146
+  },
+  {
+    "endTime": "2023-12-15 13:52",
+    "artistName": "Taylor Swift",
+    "trackName": "Love Story",
+    "msPlayed": 210000
+  },
+  {
+    "endTime": "2023-12-15 13:55",
+    "artistName": "Ed Sheeran",
+    "trackName": "Perfect",
+    "msPlayed": 263987
+  },
+  {
+    "endTime": "2023-12-15 13:59",
+    "artistName": "Coldplay",
+    "trackName": "The Scientist",
+    "msPlayed": 265120
+  },
+  {
+    "endTime": "2023-12-15 14:03",
+    "artistName": "Leevi and the Leavings",
+    "trackName": "Pohjois-Karjala",
+    "msPlayed": 201217
+  },
+  {
+    "endTime": "2023-12-15 14:07",
+    "artistName": "Haloo Helsinki!",
+    "trackName": "Hulluuden Highway",
+    "msPlayed": 292200
+  },
+  {
+    "endTime": "2023-12-15 14:10",
+    "artistName": "Adele",
+    "trackName": "Rolling in the Deep",
+    "msPlayed": 288000
+  },
+  {
+    "endTime": "2023-12-15 14:14",
+    "artistName": "Metallica",
+    "trackName": "One",
+    "msPlayed": 447890
+  },
+  {
+    "endTime": "2023-12-15 14:19",
+    "artistName": "Ed Sheeran",
+    "trackName": "Shape of You",
+    "msPlayed": 233112
+  },
+  {
+    "endTime": "2023-12-15 14:23",
+    "artistName": "Eppu Normaali",
+    "trackName": "Tahroja Paperilla",
+    "msPlayed": 193456
+  },
+  {
+    "endTime": "2023-12-15 14:27",
+    "artistName": "Haloo Helsinki!",
+    "trackName": "Maailma on tehty meitä varten",
+    "msPlayed": 270000
+  },
+  {
+    "endTime": "2023-12-15 14:31",
+    "artistName": "The Beatles",
+    "trackName": "Hey Jude",
+    "msPlayed": 425000
+  },
+  {
+    "endTime": "2023-12-15 14:35",
+    "artistName": "Coldplay",
+    "trackName": "Yellow",
+    "msPlayed": 266400
+  },
+  {
+    "endTime": "2023-12-15 14:39",
+    "artistName": "Eminem",
+    "trackName": "Stan",
+    "msPlayed": 375420
+  },
+  {
+    "endTime": "2023-12-15 14:44",
+    "artistName": "Jack Harlow",
+    "trackName": "Whats Poppin",
+    "msPlayed": 204578
+  },
+  {
+    "endTime": "2023-12-15 14:48",
+    "artistName": "Musakatit",
+    "trackName": "Joulumaa",
+    "msPlayed": 175000
+  },
+  {
+    "endTime": "2023-12-15 14:52",
+    "artistName": "Queen",
+    "trackName": "We Are The Champions",
+    "msPlayed": 178900
+  }
+]

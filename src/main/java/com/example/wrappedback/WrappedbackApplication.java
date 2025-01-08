@@ -21,7 +21,9 @@ public class WrappedbackApplication {
 		// System.out.println(json.getClass().getName());
 
 		// System.out.println(ReadFiles.processJsonFiles("data/Spotify Account Data"));
-		System.out.println(ReadFiles.processJsonFilesArtists("data/Spotify Account Data"));
+		// System.out.println(ReadFiles.processJsonFilesArtists("data/Spotify Account
+		// Data"));
+		System.out.println(ReadFiles.processJsonFilesTestData("data/Spotify Account Data/test.json"));
 	}
 
 }

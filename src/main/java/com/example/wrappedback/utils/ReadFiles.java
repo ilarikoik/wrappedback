@@ -201,4 +201,43 @@ public class ReadFiles {
         return "";
     }
 
+    public static List<SongDetails> processJsonFilesTestData(String path) {
+        ObjectMapper objectMapper = new ObjectMapper();
+        List<SongDetails> songs = new ArrayList<>();
+
+        File file = new File(path);
+        //
+        System.out.println(file);
+        try {
+            JsonNode rootNode = objectMapper.readTree(file);
+            if (rootNode.isArray()) {
+                for (JsonNode node : rootNode) {
+                    String songName = node.get("trackName").toString();
+                    Integer ms = node.get("msPlayed").asInt(); // uudet msPlayed
+                    System.out.println(songName);
+                    SongDetails found = songs.stream()
+                            .filter(s -> s.getSong().equals(songName)) // Varmistetaan, että kappaleen nimi täsmää
+                            .findFirst() // Hae ensimmäinen vastaava kappale
+                            .orElse(null);
+                    if (found != null) {
+                        found.setMs(found.getMs() + ms);
+                        found.setTimesPlayed(found.getTimesPlayed() + 1);
+                    }
+                    if (found == null) {
+                        SongDetails song = new SongDetails();
+                        song.setSong(songName);
+                        song.setMs(ms);
+                        song.setTimesPlayed(1);
+                        songs.add(song);
+                    }
+                }
+            }
+        } catch (Exception e) {
+            System.out.println("viiirire" + e);
+        }
+
+        System.out.println(songs + "hähähä");
+        return songs;
+    }
+
 }
